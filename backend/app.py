@@ -120,3 +120,4 @@ async def summarize(request: SummaryRequest):
     summary = summarize_text(paper_text)
 
     return summary
+allow_origins=["http://localhost:5173"],
